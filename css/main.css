@@ -1,11 +1,16 @@
+/***BASE STYLES***/
+
+
 /**GRID**/
 
 .full-width {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .half-width {
   width: 600px;
+  float: left;
 }
 
 .third-width {
@@ -17,7 +22,7 @@
 header {
   background-image: url("../img/hero.png");
   background-size: cover;
-  height: 800px;
+  height: 960px;
 }
 
 .container {
@@ -64,6 +69,17 @@ header h1 span {
 
 /***INTRODUCTION***/
 
-section {
-  height: 600px;
+.first-section {
+  height: 460px;
+  padding: 140px;
+
+}
+
+section h2 {
+  font-size: 36px;
+}
+
+section p {
+  font-size: 21px;
+  line-height: 25px;
 }
